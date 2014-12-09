@@ -1,0 +1,32 @@
+{
+  "name": "react-fantasy",
+  "version": "0.0.1",
+  "description": "Renderers for stuctures from fantasyland project",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Laiff/react-fantasy.git"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "fantasyland",
+    "fp",
+    "renders"
+  ],
+  "author": "Andrew Laiff \"q.laiff@gmail.com\"",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Laiff/react-fantasy/issues"
+  },
+  "dependencies": {
+    "fantasy-io": "0.0.1",
+    "fantasy-options": "0.0.1",
+    "fantasy-states": "~0.2.1",
+    "fantasy-seqs": "0.0.5",
+    "fantasy-json": "0.0.3"
+  }
+}
