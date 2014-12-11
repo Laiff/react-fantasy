@@ -1,7 +1,7 @@
 react-fantasy
 =============
 
-Rendering ```fantasyland``` structures in React
+Rendering ```fantasyland``` structures in React.
 
 ## Options
 
@@ -65,3 +65,6 @@ Rendered as
     </span>
 </div>
 ```
+
+## License
+MIT
