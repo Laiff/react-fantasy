@@ -66,5 +66,27 @@ Rendered as
 </div>
 ```
 
+## Type checkers
+
+Add check propTypes and contextTypes for fantasy structures such as Option, Seq and Json. In future will be added Either, Readers, Writers and State
+
+PropTypes example:
+
+```js
+var fpt = require('react-fantasy').PropTypes;
+
+var SomeClass = React.createClass({
+    ...
+    propTypes : {
+        page: fpt.option.isRequired,
+        items: fpt.seq.isRequired,
+        config: fpt.json.isRequired
+    }
+    ...
+});
+```
+
+Whenever non required values is possible, but that non functional behavior, because before rendering need some checks for ensure what value is present.
+
 ## License
 MIT
