@@ -9,5 +9,7 @@ var RenderOption = require('./src/RenderOption'),
 if(typeof module != 'undefined')
     module.exports = {
         option : RenderOption.of,
-        seq : RenderSeq.of
+        seq : RenderSeq.of,
+        json : RenderOption.of,
+        PropTypes : require('./src/PropTypes')
     };

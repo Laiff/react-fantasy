@@ -29,6 +29,7 @@
     "fantasy-seqs": "0.0.5",
     "fantasy-json": "0.0.3",
     "fantasy-combinators": "0.0.1",
-    "daggy": "0.0.1"
+    "daggy": "0.0.1",
+    "react": "~0.12.1"
   }
 }
