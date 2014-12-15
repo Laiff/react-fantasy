@@ -17,12 +17,30 @@
     "fp",
     "renders"
   ],
+  "files" : [
+    "src/*",
+    "index.js",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
   "author": "Andrew Laiff \"q.laiff@gmail.com\"",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Laiff/react-fantasy/issues"
   },
+  "peerDependencies": {
+    "fantasy-options": ">= 0.0.1",
+    "fantasy-seqs": ">= 0.0.5",
+    "fantasy-json": ">= 0.0.3",
+    "fantasy-combinators": ">= 0.0.1",
+    "daggy": ">= 0.0.1",
+    "react": ">= 0.11.0"
+  },
   "dependencies": {
+    "fantasy-states": "~0.2.1"
+  },
+  "devDependencies": {
     "fantasy-io": "0.0.1",
     "fantasy-options": "0.0.1",
     "fantasy-states": "~0.2.1",
