@@ -1,6 +1,6 @@
 {
   "name": "react-fantasy",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Renderers for stuctures from fantasyland project",
   "main": "index.js",
   "scripts": {
@@ -30,7 +30,7 @@
     "url": "https://github.com/Laiff/react-fantasy/issues"
   },
   "peerDependencies": {
-    "fantasy-options": ">= 0.0.1",
+    "fantasy-options": ">= 0.1.2",
     "fantasy-seqs": ">= 0.0.5",
     "fantasy-json": ">= 0.0.3",
     "fantasy-combinators": ">= 0.0.1",
@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "fantasy-io": "0.0.1",
-    "fantasy-options": "0.0.1",
+    "fantasy-options": "git://github.com/Laiff/fantasy-options.git#v0.1.2",
     "fantasy-states": "~0.2.1",
     "fantasy-seqs": "0.0.5",
     "fantasy-json": "0.0.3",
