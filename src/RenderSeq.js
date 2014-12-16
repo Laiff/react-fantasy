@@ -2,7 +2,7 @@
  * Created by laiff on 09.12.14.
  */
 var daggy = require('daggy'),
-    Option = require('fantasy-options'),
+    Option = require('fantasy-options').Option,
     StateT = require('fantasy-states').StateT,
     C = require('fantasy-combinators'),
 
