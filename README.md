@@ -31,7 +31,7 @@ var SomeValue = React.createClass({
     }
 
     render : function () {
-        return option(this.renderValue).render(this.props.value);
+        return foldable(this.renderValue).exec(this.props.value);
     }
 });
 
